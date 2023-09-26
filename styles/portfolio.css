@@ -4,6 +4,12 @@ body{
     font-family: 'open sans', sans-serif;
    
 }
+.btn-primary{
+    border-radius: 41px;
+    background: #E02C6D;
+    color: white;
+    padding: 10px 20px;
+}
 
 
 /* nav related styles */
@@ -11,6 +17,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 87px 120px;
     
 }
 .nav-title{
@@ -28,4 +35,16 @@ nav li {
 nav a{
     text-decoration: none;
     color: #3A3A3A;
+}
+
+
+/* header related styles */
+.banner{
+    padding:70px 30px 0px 150px ;
+    display: flex;
+   
+    
+}
+.banner .profile-pic{
+    width: 500px;
 }
